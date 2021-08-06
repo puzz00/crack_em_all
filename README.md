@@ -1,2 +1,2 @@
 # crack_em_all
-A program to clean up an unshadowed Linux password hash file with the option to then automate the use of hashcat to attempt to crack-em-all!
+A program to clean up an unshadowed Linux password hash file with the option to then automate the use of hashcat to attempt to crack-em-all! I wrote this because I like to use hashcat to crack hashes after I have used john's unshadow command. I found that I needed to remove some of the data from the unshadowed file before I could get it to work with hashcat. This program creates a file which is just the username:hash The -c flag takes a path to a wordlist and will activate the use of hashcat (assuming it is installed on the OS) to attempt to crack all the hashes in the cleaned up file.
