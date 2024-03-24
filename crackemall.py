@@ -6,7 +6,7 @@
 # a user can use the -c flag to automate the hashcat cracking attempt
 # (assuming they have hashcat installed on their OS of course!)
 
-# by puz00
+# by puzz00
 
 import optparse
 import subprocess
